@@ -11,6 +11,6 @@ job('job dsl new2')
     }
     steps
     {
-        shell('docker build -t web-app2 . && docker run -itd --name web-app2 -p 8887:8000 web-app2')
+        shell('docker build -t web-app17 . && docker run -itd --name web-app17 -p 8887:8000 web-app17')
     }
 }
