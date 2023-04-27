@@ -11,6 +11,6 @@ job('job dsl new2')
     }
     steps
     {
-        shell('docker build -t chirag . && docker run -itd --name chirag -p 8887:80 chirag && sleep 1m && docker stop chirag && docker rm chirag && docker rmi chirag')
+        shell('docker build -t chirag . && docker run -itd --name chirag -p 8887:80 chirag && sleep 10s && docker stop chirag && docker rm chirag && docker rmi chirag')
     }
 }
